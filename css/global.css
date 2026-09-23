@@ -1,0 +1,54 @@
+/* Quita el subrayado de los links del header */
+header {
+    a {
+        text-decoration: none;
+    }
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+
+/* Icono del header */
+.icono {
+    text-align: center;
+
+    #titulo1, #titulo2 {
+        border-radius: 20px;
+        font-size: 200%;
+    }
+    float: left;
+    width: fit-content;
+}
+
+/* Titulo de pokemon del header */
+#titulo1 {
+    color: rgb(195, 60, 60);
+    background-color: yellow;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1%;
+    margin-bottom: -1%;
+}
+
+/* Titulo de la regulacion del header */
+#titulo2 {
+    color: yellow;
+    background-color: rgb(195, 60, 60);
+    padding: 0.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* Link a las demás páginas de la web */
+.paginas {
+    background-color: rgb(0, 0, 90);
+    color: rgb(153, 153, 153);
+    position:static;
+    width: fit-content;
+    float: right;
+    margin-right: 1%;
+    display: flex;
+    border-radius: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
